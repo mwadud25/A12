@@ -4,12 +4,16 @@
 </head>
 <body>
 <input type="button" value="setCookie" onclick="setCookie()">
+<input type="button" value="Reload" onclick="reload()">
     <script>
     function setCookie()
     {
         document.cookie="username=Muhammed Wadud";
     }
-    alert(document.cookie);
+
+    function reload(){
+        alert(document.cookie);
+    }
     </script>
 
 </body>
